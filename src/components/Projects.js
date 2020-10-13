@@ -77,7 +77,7 @@ export default function () {
                 </Accordion>
               </div>
               <div className='d-flex justify-content-between flex-nowrap text-center'>
-                <UrlButton href='' target='_blank' rel='noopener noreferrer'>
+                <UrlButton href='https://anvidmen.herokuapp.com/' target='_blank' rel='noopener noreferrer'>
                                     SEE LIVE
                 </UrlButton>
                 <UrlButton href='https://github.com/anvidmen/portfolio' target='_blank' rel='noopener noreferrer'>
