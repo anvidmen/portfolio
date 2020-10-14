@@ -1,19 +1,19 @@
 // Carousel
-export { default as Slide1 } from './carousel/slide1.webp'
-export { default as Slide2 } from './carousel/slide2.webp'
-export { default as Slide3 } from './carousel/slide3.webp'
+export { default as Slide1 } from './carousel/slide1.jpg'
+export { default as Slide2 } from './carousel/slide2.jpg'
+export { default as Slide3 } from './carousel/slide3.jpg'
 
 // Experience
 export { default as L_SKYLAB } from './experience/skylab.png'
 
 // Profile
-export { default as Profile } from './profile/profile.webp'
+export { default as Profile } from './profile/profile.jpg'
 
 // Projects
-export { default as L_SEARCH_MOVIES } from './projects/search-movies.webp'
-export { default as L_PORTFOLIO } from './projects/Portfolio.webp'
-export { default as L_CALCULATOR } from './projects/calculator.webp'
-export { default as L_WEBSITE_CONSTRUCTION } from './projects/website-construction.webp'
+export { default as L_SEARCH_MOVIES } from './projects/search-movies.jpg'
+export { default as L_PORTFOLIO } from './projects/Portfolio.jpg'
+export { default as L_CALCULATOR } from './projects/calculator.jpg'
+export { default as L_WEBSITE_CONSTRUCTION } from './projects/website-construction.jpg'
 // Skills
 export { default as L_AWS } from './skills/AWS.svg'
 export { default as L_BOOTSTRAP } from './skills/bootstrap-4.svg'
