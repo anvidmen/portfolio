@@ -1,6 +1,6 @@
 # Portfolio
 
-![portfolio](/src/assets/img/projects/Portfolio.webp)
+![portfolio](/src/assets/img/projects/Portfolio.jpg)
 
 In this first version of the portfolio I present some of my abilities and skills in the world of programming and others of interests on a professional and personal level.
 
