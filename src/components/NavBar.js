@@ -14,7 +14,7 @@ export default function () {
       >
         <div>
           <Navbar.Brand href='#home'>
-            <img className='logo' src={Logo} alt='logo anvidmen' />
+            <img alt='logo anvidmen' className='logo' height='23%' src={Logo} width='23%' />
           </Navbar.Brand>
         </div>
         <div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardDeck, Image, Row, Col } from 'react-bootstrap'
+import { Card, CardDeck, Col, Image, Row } from 'react-bootstrap'
 import { skills } from './SkillsData'
 import '../styles/style.sass'
 
@@ -23,10 +23,12 @@ export default function () {
                         target='_blank' rel='noopener noreferrer'
                       >
                         <Image
-                          src={skill.imgSrc}
                           alt={skill.imgAltText}
-                          rounded
                           className='image-style m-1'
+                          height='35'
+                          rounded
+                          src={skill.imgSrc}
+                          width='60'
                         /> {skill.skillName}
                       </a>
                     </span>
@@ -50,10 +52,12 @@ export default function () {
                         rel='noopener noreferrer'
                       >
                         <Image
-                          src={skill.imgSrc}
                           alt={skill.imgAltText}
-                          rounded
                           className='image-style m-1'
+                          height='35'
+                          rounded
+                          src={skill.imgSrc}
+                          width='60'
                         /> {skill.skillName}
                       </a>
                     </span>
@@ -75,10 +79,12 @@ export default function () {
                         rel='noopener noreferrer'
                       >
                         <Image
-                          src={skill.imgSrc}
                           alt={skill.imgAltText}
-                          rounded
                           className='image-style m-1'
+                          height='35'
+                          rounded
+                          src={skill.imgSrc}
+                          width='60'
                         /> {skill.skillName}
                       </a>
                     </span>
@@ -100,10 +106,12 @@ export default function () {
                         rel='noopener noreferrer'
                       >
                         <Image
-                          src={skill.imgSrc}
                           alt={skill.imgAltText}
-                          rounded
                           className='image-style m-1'
+                          height='35'
+                          rounded
+                          src={skill.imgSrc}
+                          width='60'
                         /> {skill.skillName}
                       </a>
                     </span>
@@ -125,10 +133,12 @@ export default function () {
                         rel='noopener noreferrer'
                       >
                         <Image
-                          src={skill.imgSrc}
                           alt={skill.imgAltText}
-                          rounded
                           className='image-style m-1'
+                          height='35'
+                          rounded
+                          src={skill.imgSrc}
+                          width='60'
                         /> {skill.skillName}
                       </a>
                     </span>
@@ -152,10 +162,12 @@ export default function () {
                         rel='noopener noreferrer'
                       >
                         <Image
-                          src={skill.imgSrc}
                           alt={skill.imgAltText}
-                          rounded
                           className='image-style m-1'
+                          height='35'
+                          rounded
+                          src={skill.imgSrc}
+                          width='60'
                         /> {skill.skillName}
                       </a>
                     </span>
@@ -176,9 +188,11 @@ export default function () {
                       rel='noopener noreferrer'
                     >
                       <Image
-                        src={skills.versionControl[0].imgSrc}
                         alt={skills.versionControl[0].imgAltText}
+                        height='35'
                         rounded className='image-style m-1'
+                        src={skills.versionControl[0].imgSrc}
+                        width='60'
                       /> {skills.versionControl[0].skillName}
                     </a>
                   </span>
@@ -198,9 +212,11 @@ export default function () {
                       rel='noopener noreferrer'
                     >
                       <Image
-                        src={skills.others[0].imgSrc}
                         alt={skills.others[0].imgAltText}
+                        height='35'
                         rounded className='image-style m-1'
+                        src={skills.others[0].imgSrc}
+                        width='60'
                       /> {skills.others[0].skillName}
                     </a>
                   </span>

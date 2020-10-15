@@ -1,5 +1,5 @@
 import React from 'react'
-import { Jumbotron, Button, Col, Row } from 'react-bootstrap'
+import { Button, Col, Jumbotron, Row } from 'react-bootstrap'
 import '../styles/style.sass'
 
 export default function () {

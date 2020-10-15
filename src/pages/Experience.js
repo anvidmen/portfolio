@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Jumbotron, Card } from 'react-bootstrap'
+import { Card, Container, Jumbotron } from 'react-bootstrap'
 import { L_SKYLAB } from '../assets/img'
 import Tilt from 'react-tilt'
 import '../styles/style.sass'
@@ -13,7 +13,7 @@ export default function () {
           <Tilt options={{ max: 25 }}>
             <Card>
               <Card.Header as='h5' className='d-flex flex-wrap justify-content-center '>
-                <Card.Img variant='top' className='img-resize' src={L_SKYLAB} alt='Skylab logo' />
+                <Card.Img alt='Skylab logo' className='img-resize' src={L_SKYLAB} variant='top' />
               </Card.Header>
               <Card.Body className='d-flex justify-content-center flex-column'>
                 <div>

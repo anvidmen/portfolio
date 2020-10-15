@@ -21,11 +21,13 @@ export default function () {
         <Events>
 
           <ImageEvent
-            date=''
-            className='text-center'
-            text='PORTFOLIO'
-            src={L_PORTFOLIO}
             alt='Portfolio'
+            className='text-center'
+            date=''
+            height='100'
+            src={L_PORTFOLIO}
+            text='PORTFOLIO'
+            width='100'
           >
             <div className='d-flex flex-column justify-content-between mt-1'>
               <div>
@@ -52,22 +54,22 @@ export default function () {
                         <ul>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_REACT} alt='React' rounded className='image-style1 m-1' />
+                              <Image alt='React' className='image-style1 m-1' height='45' src={L_REACT} rounded width='100' />
                             </span>
                           </li>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_REACT_BOOTSTRAP} alt='React Bootstrap' rounded className='image-style1 m-1' />
+                              <Image alt='React Bootstrap' className='image-style1 m-1' height='45' src={L_REACT_BOOTSTRAP} rounded width='100' />
                             </span>
                           </li>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_SASS} alt='Sass' rounded className='image-style1 m-1' />
+                              <Image alt='Sass' className='image-style1 m-1' height='45' src={L_SASS} rounded width='100' />
                             </span>
                           </li>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_HEROKU} alt='Heroku' rounded className='image-style1 m-1' />
+                              <Image alt='Heroku' className='image-style1 m-1' height='45' src={L_HEROKU} rounded width='100' />
                             </span>
                           </li>
                         </ul>
@@ -85,11 +87,13 @@ export default function () {
           </ImageEvent>
 
           <ImageEvent
-            date=''
-            className='text-center'
-            text='7 POTENCIAS'
-            src={L_WEBSITE_CONSTRUCTION}
             alt='7 Potencias'
+            className='text-center'
+            date=''
+            height='100'
+            src={L_WEBSITE_CONSTRUCTION}
+            text='7 POTENCIAS'
+            width='100'
           >
             <div className='d-flex flex-column justify-content-between mt-1'>
               <div>
@@ -113,47 +117,47 @@ export default function () {
                         <ul>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_REACT} alt='ReactJs' rounded className='image-style m-1' />
+                              <Image alt='ReactJs' className='image-style1 m-1' height='45' src={L_REACT} rounded width='100' />
                             </span>
                           </li>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_REACT_ROUTER} alt='ReactJs' rounded className='image-style m-1' />
+                              <Image alt='ReactJs' className='image-style1 m-1' height='45' src={L_REACT_ROUTER} rounded width='100' />
                             </span>
                           </li>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_SASS} alt='Sass' rounded className='image-style1 m-1' />
+                              <Image alt='Sass' className='image-style1 m-1' height='45' src={L_SASS} rounded width='100' />
                             </span>
                           </li>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_NODEJS} alt='NodeJs' rounded className='image-style m-1' />
+                              <Image alt='NodeJs' className='image-style1 m-1' height='45' src={L_NODEJS} rounded width='100' />
                             </span>
                           </li>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_EXPRESS} alt='Express' rounded className='image-style1 m-1' />
+                              <Image alt='Express' className='image-style1 m-1' height='45' src={L_EXPRESS} rounded width='100' />
                             </span>
                           </li>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_MONGODB} alt='MongoDB' rounded className='image-style1 m-1' />
+                              <Image alt='MongoDB' className='image-style1 m-1' height='45' src={L_MONGODB} rounded width='100' />
                             </span>
                           </li>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_MOCHA} alt='MongoDB' rounded className='image-style1 m-1' />
+                              <Image alt='MongoDB' className='image-style1 m-1' height='45' src={L_MOCHA} rounded width='100' />
                             </span>
                           </li>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_CHAI} alt='MongoDB' rounded className='image-style1 m-1' />
+                              <Image alt='MongoDB' className='image-style1 m-1' height='45' src={L_CHAI} rounded width='100' />
                             </span>
                           </li>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_HEROKU} alt='MongoDB' rounded className='image-style1 m-1' />
+                              <Image alt='MongoDB' className='image-style1 m-1' height='45' src={L_HEROKU} rounded width='100' />
                             </span>
                           </li>
                         </ul>
@@ -171,11 +175,11 @@ export default function () {
           </ImageEvent>
 
           <ImageEvent
-            date=''
-            className='text-center'
-            text='CALCULATOR'
-            src={L_CALCULATOR}
             alt='Calculator'
+            className='text-center'
+            date=''
+            src={L_CALCULATOR}
+            text='CALCULATOR'
           >
             <div className='d-flex flex-column justify-content-between  mt-1'>
               <div>
@@ -199,27 +203,27 @@ export default function () {
                         <ul>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_JAVASCRIPT} alt='JavaScript' rounded className='image-style1 m-1' />
+                              <Image alt='JavaScript' className='image-style1 m-1' height='45' src={L_JAVASCRIPT} rounded width='100' />
                             </span>
                           </li>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_HTML5} alt='Html5' rounded className='image-style m-1' />
+                              <Image alt='Html5' className='image-style1 m-1' height='45' src={L_HTML5} rounded width='100' />
                             </span>
                           </li>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_SASS} alt='Sass' rounded className='image-style1 m-1' />
+                              <Image alt='Sass' className='image-style1 m-1' height='45' src={L_SASS} rounded width='100' />
                             </span>
                           </li>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_JASMINE} alt='Jasmine' rounded className='image-style1 m-1' />
+                              <Image alt='Jasmine' className='image-style1 m-1' height='45' src={L_JASMINE} rounded width='100' />
                             </span>
                           </li>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_GITHUB_PAGES} alt='Jasmine' rounded className='image-style1 m-1' />
+                              <Image alt='Jasmine' className='image-style1 m-1' height='45' src={L_GITHUB_PAGES} rounded width='100' />
                             </span>
                           </li>
                         </ul>
@@ -240,11 +244,13 @@ export default function () {
           </ImageEvent>
 
           <ImageEvent
-            date=''
-            className='text-center'
-            text='SEARCH MOVIES'
-            src={L_SEARCH_MOVIES}
             alt='Search Movies'
+            className='text-center'
+            date=''
+            height='100'
+            src={L_SEARCH_MOVIES}
+            text='SEARCH MOVIES'
+            width='100'
           >
             <div className='d-flex flex-column justify-content-between mt-1'>
               <div>
@@ -268,22 +274,22 @@ export default function () {
                         <ul>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_REACT} alt='React' rounded className='image-style m-1' />
+                              <Image alt='React' className='image-style1 m-1' height='45' src={L_REACT} rounded width='100' />
                             </span>
                           </li>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_REACT_ROUTER} alt='React Router' rounded className='image-style m-1' />
+                              <Image alt='React Router' className='image-style1 m-1' height='45' src={L_REACT_ROUTER} rounded width='100' />
+                            </span>
+                          </li>
+                          <li>src={L_REACT_ROUTER}
+                            <span className='p-2'>
+                              <Image alt='Sass' className='image-style1 m-1' height='45' src={L_SASS} rounded width='100' />
                             </span>
                           </li>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_SASS} alt='Sass' rounded className='image-style m-1' />
-                            </span>
-                          </li>
-                          <li>
-                            <span className='p-2'>
-                              <Image src={L_OMDB} alt='OMDB Api' rounded className='image-style m-1' />
+                              <Image alt='OMDB Api' className='image-style1 m-1' height='45' src={L_OMDB} rounded width='100' />
                             </span>
                           </li>
                         </ul>
@@ -304,11 +310,13 @@ export default function () {
           </ImageEvent>
 
           <ImageEvent
-            date=''
-            className='text-center'
-            text='CALCULATOR REDUX'
-            src={L_WEBSITE_CONSTRUCTION}
             alt='Calculator Redux'
+            className='text-center'
+            date=''
+            height='100'
+            src={L_WEBSITE_CONSTRUCTION}
+            text='CALCULATOR REDUX'
+            width='100'
           >
             <div className='d-flex flex-column justify-content-between mt-1'>
               <div>
@@ -331,17 +339,17 @@ export default function () {
                         <ul>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_REACT} alt='React' rounded className='image-style m-1' />
+                              <Image alt='React' className='image-style1 m-1' height='45' src={L_REACT} rounded width='100' />
                             </span>
                           </li>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_REDUX} alt='Redux' rounded className='image-style m-1' />
+                              <Image alt='Redux' className='image-style1 m-1' height='45' src={L_REDUX} rounded width='100' />
                             </span>
                           </li>
                           <li>
                             <span className='p-2'>
-                              <Image src={L_SASS} alt='Sass' rounded className='image-style m-1' />
+                              <Image alt='Sass' className='image-style1 m-1' height='45' src={L_SASS} rounded width='100' />
                             </span>
                           </li>
                         </ul>

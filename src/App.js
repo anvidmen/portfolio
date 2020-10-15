@@ -4,8 +4,8 @@ import { Container } from 'react-bootstrap'
 import { Parallax } from 'react-parallax'
 import Particles from 'react-particles-js'
 import { particles } from './particles'
-import { NavBar, Carousel, TitleMessage, Footer, Projects } from './components'
-import { About, Skills, Experience } from './pages'
+import { Carousel, Footer, NavBar, Projects, TitleMessage } from './components'
+import { About, Experience, Skills } from './pages'
 import './App.sass'
 
 const App = () => {

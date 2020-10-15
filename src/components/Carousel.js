@@ -9,13 +9,13 @@ export default function () {
     <div id='home'>
       <Carousel controls={false} indicators interval={3500}>
         <Carousel.Item>
-          <img className='d-block w-100 custom-img' src={Slide1} alt='Third slide' />
+          <img alt='First slide' className='d-block w-100 custom-img' height='100%' src={Slide1} width='100%' />
         </Carousel.Item>
         <Carousel.Item>
-          <img className='d-block w-100 custom-img' src={Slide2} alt='second slide' />
+          <img alt='second slide' className='d-block w-100 custom-img' height='100%' src={Slide2} width='100%' />
         </Carousel.Item>
         <Carousel.Item>
-          <img className='d-block w-100 custom-img' src={Slide3} alt='First slide' />
+          <img alt='Third slide' className='d-block w-100 custom-img' height='100%' src={Slide3} width='100%' />
         </Carousel.Item>
       </Carousel>
       <ScrollDown />
