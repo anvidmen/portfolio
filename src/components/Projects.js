@@ -24,10 +24,8 @@ export default function () {
             alt='Portfolio'
             className='text-center'
             date=''
-            height='100'
             src={L_PORTFOLIO}
             text='PORTFOLIO'
-            width='100'
           >
             <div className='d-flex flex-column justify-content-between mt-1'>
               <div>
@@ -90,10 +88,8 @@ export default function () {
             alt='7 Potencias'
             className='text-center'
             date=''
-            height='100'
             src={L_WEBSITE_CONSTRUCTION}
             text='7 POTENCIAS'
-            width='100'
           >
             <div className='d-flex flex-column justify-content-between mt-1'>
               <div>
@@ -247,10 +243,8 @@ export default function () {
             alt='Search Movies'
             className='text-center'
             date=''
-            height='100'
             src={L_SEARCH_MOVIES}
             text='SEARCH MOVIES'
-            width='100'
           >
             <div className='d-flex flex-column justify-content-between mt-1'>
               <div>
@@ -313,10 +307,8 @@ export default function () {
             alt='Calculator Redux'
             className='text-center'
             date=''
-            height='100'
             src={L_WEBSITE_CONSTRUCTION}
             text='CALCULATOR REDUX'
-            width='100'
           >
             <div className='d-flex flex-column justify-content-between mt-1'>
               <div>
