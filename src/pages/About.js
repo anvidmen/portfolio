@@ -32,7 +32,7 @@ export default function () {
                   </div>
                   <div>
                     <a
-                      href='https://drive.google.com/file/d/1GfgucXwpCgV6whowYeqj4Ke5imEjDLHO/view?usp=sharing'
+                      href='https://drive.google.com/file/d/1-caYCDIPv_qv2TUD5Q2sjkXQ6gCMYUc9/view?usp=sharing'
                       target='_blank'
                       rel='noopener noreferrer'
                     >
